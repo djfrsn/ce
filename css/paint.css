@@ -32,12 +32,8 @@ body { font-size:100%; } /* Base settings for all elements are mobile first(iPho
     background-size: cover;
 }
 
-.large-3 {
-/* This is our container for the business of show and cd/ae links*/
-}
-
-.selector {
-    margin: 99% 0 0;
+.nav__wrap {
+    padding: 20em 0 0; 
 }
 
  h1 {
