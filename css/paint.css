@@ -33,9 +33,10 @@
 /* This is our container for the business of show and cd/ae links*/
 }
 
-h1 {
+ h1 {
     font-family: colablig, arial, sans-serif;
     color: #727171;
+    margin: 0 0 -5px;
     text-align: center;
     font-size: 24px;
 }
@@ -52,6 +53,8 @@ h1 {
 
 .nav__wrap {
     text-align: center;
+    color: #a1a0a0;
+    padding: 2px 0 0;
 }
 .selector {
     margin: 99% 0 0;
@@ -61,4 +64,10 @@ h1 {
 
 div.nav__wrap {
     font-size: 13px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 227px;
+    border-color: inherit;
 }
