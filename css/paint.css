@@ -20,6 +20,9 @@
     font-style: normal;
 
 }
+
+body { font-size:100%; } /* Base settings for all elements are mobile first(iPhone 3/4) */
+
 .ce__bg {
     /* load bg here */
     background: url(../lib/img/ce__bg.jpg) no-repeat center center fixed;
@@ -33,41 +36,67 @@
 /* This is our container for the business of show and cd/ae links*/
 }
 
- h1 {
-    font-family: colablig, arial, sans-serif;
-    color: #727171;
-    margin: 0 0 -5px;
-    text-align: center;
-    font-size: 24px;
-}
-
-.cd__link {
-        font-family: colabthi, arial, sans-serif;
-        color:  #ff9000;     
-}
-
-.ae__link {
-           font-family: colabthi, arial, sans-serif;
-           color: #5dc0f8;        
-}
-
-.nav__wrap {
-    text-align: center;
-    color: #a1a0a0;
-    padding: 2px 0 0;
-}
 .selector {
     margin: 99% 0 0;
 }
 
-
-
-div.nav__wrap {
-    font-size: 13px;
+ h1 {
+    font-family: colablig, arial, sans-serif;
+    color: #727171;
+    margin: 0 0 -5px;
+     padding: 0 0 2.2px 0;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 hr {
     margin: 0 auto;
-    width: 227px;
+    width: 180px;
     border-color: inherit;
 }
+
+.link__wrap {
+    font-size: 1em;
+    text-align: center;
+    color: #a1a0a0;
+    padding: 2px 0 0;
+}
+
+.cd__link {
+        font-family: colabthi, arial, sans-serif;
+        color:  #F18800; /* psd color: #ff9000 */  
+        padding: 0 2.5px 0 0;
+}
+
+.ae__link {
+           font-family: colabthi, arial, sans-serif;
+           color: #5BB6E9;/* psd color: #5dc0f8 */     
+            padding: 0 0 0 2.5px;
+}
+
+
+/* Tablet selector sizing 
+
+ h1 {
+    font-family: colablig, arial, sans-serif;
+    color: #727171;
+    margin: 0 0 -5px;
+     padding: 0 0 2.2px 0;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+hr {
+    margin: 0 auto;
+    width: 200px;
+    border-color: inherit;
+}
+
+.link__wrap {
+    font-size: 1.1em;
+    text-align: center;
+    color: #a1a0a0;
+    padding: 2px 0 0;
+}
+
+*/
