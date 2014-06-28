@@ -25,7 +25,7 @@ body { font-size:100%; } /* Base settings for all elements are mobile first(iPho
 
 .ce__bg {
     /* load bg here */
-    background: url(../lib/img/ce__bg.jpg) no-repeat center center fixed;
+    background: url(../lib/img/ce__bg.jpg) no-repeat center center fixed; /* device orientation = landscape ... remove all background attributes ie. no-repeat, center, etc */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
