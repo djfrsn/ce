@@ -1,18 +1,24 @@
 @font-face {
-  font-family: 'ColabLig';
-  src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('webfont.woff') format('woff'), /* Modern Browsers */
-       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'colablig';
+    src: url('../lib/fonts/colablig-webfont.eot');
+    src: url('../lib/fonts/colablig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../lib/fonts/colablig-webfont.woff') format('woff'),
+         url('../lib/fonts/colablig-webfont.ttf') format('truetype'),
+         url('../lib/fonts/colablig-webfont.svg#colaboratelightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
-  font-family: 'ColabThi';
-  src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('webfont.woff') format('woff'), /* Modern Browsers */
-       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-family: 'colabthi';
+    src: url('../lib/fonts/colabthi-webfont.eot');
+    src: url('../lib/fonts/colabthi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../lib/fonts/colabthi-webfont.woff') format('woff'),
+         url('../lib/fonts/colabthi-webfont.ttf') format('truetype'),
+         url('../lib/fonts/colabthi-webfont.svg#colaborate-thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 .ce__bg {
     /* load bg here */
@@ -28,17 +34,20 @@
 }
 
 h1 {
+    font-family: colablig, arial, sans-serif;
     color: #727171;
     text-align: center;
     font-size: 24px;
 }
 
 .cd__link {
-/*    This is  our link  for cd should be in #ff9000 */
+        font-family: colabthi, arial, sans-serif;
+        color:  #ff9000;     
 }
 
 .ae__link {
-/*    #5dc0f8 */
+           font-family: colabthi, arial, sans-serif;
+           color: #5dc0f8;        
 }
 
 .nav__wrap {
