@@ -74,6 +74,9 @@ hr {
             padding: 0 0 0 2.5px;
 }
 
+.link__wrap a:hover, a:focus {
+opacity: 0.75;
+}
 
 /* Tablet selector sizing 
 
