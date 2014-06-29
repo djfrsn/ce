@@ -22,18 +22,50 @@
 }
 
 body { font-size:100%; } /* Base settings for all elements are mobile first(iPhone 3/4) */
+
 .nav__wrap {
     padding: 20em 0 0; 
 }
+
 .ce__bg { 
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height:100%;
-    z-index: -1;
+    text-indent: -9999px;
     background: url(../lib/img/ce__bg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.ce__bgleft { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: url(../lib/img/ce__bgleft.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:none;
+}
+.ce__bgright { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: url(../lib/img/ce__bgright.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display:none;
 }
 
  h1 {
@@ -98,7 +130,4 @@ hr {
     padding: 2px 0 0;
 }
 
-*/
-.ce__bg p {
-    text-indent: -9999px;
-}
+*/k
