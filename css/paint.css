@@ -137,25 +137,61 @@ Spec definition:
 @media only screen and (min-width: 360px) and (max-width: 422px) and (orientation: portrait) {
      .nav__wrap {
         padding: 26em 0 0;
-    }   
+    }  
+    .link__wrap {
+font-size: 1.1em;
+}
+    h1 {
+font-size: 1.4em;
+}
+    hr {
+width: 210px;
+}
 }
 /* mid-palm */
 @media only screen and (min-width: 423px) and (max-width: 479px) and (orientation: portrait) {
      .nav__wrap {
         padding: 30em 0 0;
-    }   
+    }
+     .link__wrap {
+font-size: 1.1em;
+}
+    h1 {
+font-size: 1.4em;
+}
+    hr {
+width: 210px;
+}
 }
 /* break-0-landscape */
 @media only screen and (min-width: 480px) and (orientation: landscape) {
      .nav__wrap {
         padding: 14em 0 0;
     }  
+        .link__wrap {
+font-size: 1.1em;
+}
+    h1 {
+font-size: 1.4em;
+}
+    hr {
+width: 210px;
+}
 }
 /* lrg-palm */
 @media only screen and (min-width: 480px) and (max-width: 640px) and (orientation: portrait) {
      .nav__wrap {
      padding: 32em 0 0;
      } 
+     .link__wrap {
+font-size: 1.1em;
+}
+    h1 {
+font-size: 1.4em;
+}
+    hr {
+width: 210px;
+}
 }
 /* iPhone5 */
 @media only screen and (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -168,6 +204,15 @@ Spec definition:
      .nav__wrap {
         padding: 19em 0 0;
     }  
+     .link__wrap {
+font-size: 1.1em;
+}
+    h1 {
+font-size: 1.4em;
+}
+    hr {
+width: 210px;
+}
 }
 /* tiny-lap */
 @media only screen and (min-width: 641px) and (max-width: 767px) {
