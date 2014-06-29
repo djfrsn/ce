@@ -106,28 +106,78 @@ hr {
 opacity: 0.75;
 }
 
-/* Tablet selector sizing 
+/* ~~~~~~~~~ Water - Fluid CSS Response ~~~~~~~~~
+GitHub: https://github.com/djfrsn/Water
 
- h1 {
-    font-family: colablig, arial, sans-serif;
-    color: #727171;
-    margin: 0 0 -5px;
-     padding: 0 0 2.2px 0;
-    text-align: center;
-    font-size: 1.3em;
+
+Full Spectrum Device Support
+
+Spec definition: 
+
+			Values listed are device-width in inches
+
+	Tiny-Palm : < 3.5in [ tiny/small smartphone ]
+	Baseline CSS          : 3.5 -4in [ iPhone ]
+	Palm              : 4in - 5in [ med/large smartphone, <= Galaxy S4,]
+	lrg-Palm          : 5in - 6.7in [ Galaxy Note, small tablets ]
+	Tiny-Lap          : 6.7in+ - 8in [ iPad mini, med-size tablets ]
+	Lap               : 8in - 10in [ iPad, large tablets, small netbooks]
+	lrg-Lap           : 10in - 12in [ lrg-tablets, reg-size netbooks]
+	Desk              : 12in - 15in [ laptops w/ desk-use ]
+	lrg-Desk          : 15in - 24in [ lrg desk device ]
+	xlrg-Desk          : 24+in [ hd+ screen ]
+
+*/
+
+/* tiny-palm */
+@media only screen and (max-width: 319px) and (orientation: portrait) {
+     @content   
 }
-
-hr {
-    margin: 0 auto;
-    width: 200px;
-    border-color: inherit;
+/* palm */
+@media only screen and (min-width: 360px) and (max-width: 479px) and (orientation: portrait) {
+     @content   
 }
-
-.link__wrap {
-    font-size: 1.1em;
-    text-align: center;
-    color: #a1a0a0;
-    padding: 2px 0 0;
+/* break-0-landscape */
+@media only screen and(min-width: 560px) and (orientation: landscape) {
+     @content   
 }
-
-*/k
+/* lrg-palm */
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+     @content   
+}
+/* iPhone5 */
+@media only screen and (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+     @content   
+}
+/* break-1-landscape */
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+     @content   
+}
+/* tiny-lap */
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+     @content   
+}
+/* lap */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+     @content   
+}
+/* break-2-landscape */
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+     @content   
+}
+/* lrg-lap */
+@media only screen and (min-width: 960px) and (max-width: 1152px) {
+     @content   
+}
+/* desk */
+@media only screen and (min-width: 1153px) and (max-width: 1440px) {
+     @content   
+}
+/* lrg-desk */
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+     @content   
+}
+/* xlrg-desk */
+@media only screen and (min-width: 1921px) {
+     @content   
+}
