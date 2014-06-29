@@ -34,7 +34,7 @@ body { font-size:100%; } /* Base settings for all elements are mobile first(iPho
     width: 100%;
     height:100%;
     text-indent: -9999px;
-    background: url(../lib/img/ce__bg.jpg) no-repeat center center fixed; 
+    background: url(../img/ce__bg.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -47,7 +47,7 @@ body { font-size:100%; } /* Base settings for all elements are mobile first(iPho
     left: 0;
     width: 100%;
     height:100%;
-    background: url(../lib/img/ce__bgleft.jpg) no-repeat center center fixed; 
+    background: url(../img/ce__bgleft.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,7 +60,7 @@ body { font-size:100%; } /* Base settings for all elements are mobile first(iPho
     left: 0;
     width: 100%;
     height:100%;
-    background: url(../lib/img/ce__bgright.jpg) no-repeat center center fixed; 
+    background: url(../img/ce__bgright.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
