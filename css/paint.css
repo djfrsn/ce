@@ -118,7 +118,7 @@ Spec definition:
 
 	Tiny-Palm : < 3.5in [ tiny/small smartphone ]
 	Baseline CSS          : 3.5 -4in [ iPhone ]
-	Palm              : 4in - 5in [ med/large smartphone, <= Galaxy S4,]
+	Palm/mid-palm      : 4in - 5in [ med/large smartphone, <= Galaxy S4,]
 	lrg-Palm          : 5in - 6.7in [ Galaxy Note, small tablets ]
 	Tiny-Lap          : 6.7in+ - 8in [ iPad mini, med-size tablets ]
 	Lap               : 8in - 10in [ iPad, large tablets, small netbooks]
@@ -134,24 +134,40 @@ Spec definition:
      @content   
 }
 /* palm */
-@media only screen and (min-width: 360px) and (max-width: 479px) and (orientation: portrait) {
-     @content   
+@media only screen and (min-width: 360px) and (max-width: 422px) and (orientation: portrait) {
+     .nav__wrap {
+        padding: 26em 0 0;
+    }   
+}
+/* mid-palm */
+@media only screen and (min-width: 423px) and (max-width: 479px) and (orientation: portrait) {
+     .nav__wrap {
+        padding: 30em 0 0;
+    }   
 }
 /* break-0-landscape */
-@media only screen and(min-width: 560px) and (orientation: landscape) {
-     @content   
+@media only screen and (min-width: 480px) and (orientation: landscape) {
+     .nav__wrap {
+        padding: 14em 0 0;
+    }  
 }
 /* lrg-palm */
-@media only screen and (min-width: 480px) and (max-width: 640px) {
-     @content   
+@media only screen and (min-width: 480px) and (max-width: 640px) and (orientation: portrait) {
+     .nav__wrap {
+     padding: 32em 0 0;
+     } 
 }
 /* iPhone5 */
 @media only screen and (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-     @content   
+     .nav__wrap {
+    padding: 23em 0 0;
+    }  
 }
 /* break-1-landscape */
-@media only screen and (min-width: 768px) and (orientation: landscape) {
-     @content   
+@media only screen and (min-width: 753px) and (orientation: landscape) {
+     .nav__wrap {
+        padding: 19em 0 0;
+    }  
 }
 /* tiny-lap */
 @media only screen and (min-width: 641px) and (max-width: 767px) {
