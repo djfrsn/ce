@@ -22,20 +22,16 @@
 }
 
 body { font-size:100%; } /* Base settings for all elements are mobile first(iPhone 3/4) */
-
-.ce__bg {
-    /* load bg here */
-    background: url(../lib/img/ce__bg.jpg) no-repeat center center fixed; /* device orientation = landscape ... remove all background attributes ie. no-repeat, center, etc */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .nav__wrap {
     padding: 20em 0 0; 
 }
-
+.ce__bg { 
+  background: url(../lib/img/ce__bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
  h1 {
     font-family: colablig, arial, sans-serif;
     color: #727171;
