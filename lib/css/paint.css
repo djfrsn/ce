@@ -123,34 +123,53 @@ opacity: 0.75;
 /* Sets font-size for all elements on tablet/desktop */
 @media only screen and (min-width: 480px) {
     h1 {
-    font-size: 1.1em;
+    font-size: 1.25em;
+        transition: all 0.7s;      
 }
 
 hr {
-    width: 195px
+    width: 220px;
+    transition: all 0.7s;      
+        
 }
 
 .link__wrap {
-    font-size: 0.9em;
+    font-size: 1em;
+    transition: all 0.7s;      
 }
 }
 
 @media only screen and (min-width: 600px) {
     h1 {
     font-size: 1.25em;
+        transition: all 0.7s;      
 }
 
 hr {
-    width: 215px
+    width: 215px;
+    transition: all 0.7s;      
 }
 
 .link__wrap {
     font-size: 1em;
+    transition: all 0.7s;      
 }
+}
+@media only screen and (min-width: 768px) {
+    h1 {
+    font-size: 1.5em;
+        transition: all 0.7s;      
 }
 
-@media only screen and (min-width: 1134px) {
-    @content;
+hr {
+    width: 260px;
+    transition: all 0.7s;      
+}
+
+.link__wrap {
+    font-size: 1.1em;
+    transition: all 0.7s;      
+}
 }
 
 /* the query monster below scales the page up to 4k resolutions rawrr */
