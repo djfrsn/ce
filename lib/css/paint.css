@@ -8,22 +8,22 @@ This stylesheet is served to browsers that do not pass http://detectmobilebrowse
 
 @font-face {
     font-family: 'colablig';
-    src: url('../lib/fonts/colablig-webfont.eot');
-    src: url('../lib/fonts/colablig-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../lib/fonts/colablig-webfont.woff') format('woff'),
-         url('../lib/fonts/colablig-webfont.ttf') format('truetype'),
-         url('../lib/fonts/colablig-webfont.svg#colaboratelightregular') format('svg');
+    src: url('../fonts/colablig-webfont.eot');
+    src: url('../fonts/colablig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/colablig-webfont.woff') format('woff'),
+         url('../fonts/colablig-webfont.ttf') format('truetype'),
+         url('../fonts/colablig-webfont.svg#colaboratelightregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'colabthi';
-    src: url('../lib/fonts/colabthi-webfont.eot');
-    src: url('../lib/fonts/colabthi-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../lib/fonts/colabthi-webfont.woff') format('woff'),
-         url('../lib/fonts/colabthi-webfont.ttf') format('truetype'),
-         url('../lib/fonts/colabthi-webfont.svg#colaborate-thinregular') format('svg');
+    src: url('../fonts/colabthi-webfont.eot');
+    src: url('../fonts/colabthi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/colabthi-webfont.woff') format('woff'),
+         url('../fonts/colabthi-webfont.ttf') format('truetype'),
+         url('../fonts/colabthi-webfont.svg#colaborate-thinregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
