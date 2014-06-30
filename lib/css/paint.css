@@ -49,6 +49,8 @@ body { font-size:100%; } /* Base settings for all elements set @ 477px x 288px  
     background-size: cover;
 }
 
+
+
 .ce__bgleft { 
     position: absolute;
     top: 0;
@@ -76,13 +78,14 @@ body { font-size:100%; } /* Base settings for all elements set @ 477px x 288px  
     display:none;
 }
 
+/* begin link module */
  h1 {
     font-family: colablig, arial, sans-serif;
     color: #727171;
     margin: 0 0 -5px;
      padding: 0 0 2.2px 0;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 hr {
@@ -92,7 +95,7 @@ hr {
 }
 
 .link__wrap {
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: center;
     color: #a1a0a0;
     padding: 2px 0 0;
@@ -115,15 +118,48 @@ opacity: 0.75;
 }
 
 /* ~~~~~~~~~ Media Queries ~~~~~~~~~ */
+
+
+/* Sets font-size for all elements on tablet/desktop */
+@media only screen and (min-width: 480px) {
+    h1 {
+    font-size: 1.1em;
+}
+
+hr {
+    width: 195px
+}
+
+.link__wrap {
+    font-size: 0.9em;
+}
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+    font-size: 1.25em;
+}
+
+hr {
+    width: 215px
+}
+
+.link__wrap {
+    font-size: 1em;
+}
+}
+
+@media only screen and (min-width: 1134px) {
+    @content;
+}
+
 /* the query monster below scales the page up to 4k resolutions rawrr */
-
-
-/* height based queries */
+/* begin query monster -- controls positioning of nav/text elements on page */
 @media only screen and (min-height: 276px) and (max-height: 316px) {
     .nav__wrap {
 padding: 11em 0 0;
 transition: all 0.4s;        
-} /* base css assumes someone minimized the browser to near max */
+} /* starts off building on the  base css which assumes someone minimized the browser to near max */
 }
 @media only screen and (min-height: 317px) and (max-height: 357px) {
     .nav__wrap {
