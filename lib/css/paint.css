@@ -85,17 +85,17 @@ body { font-family: colabthi, helvetica neue, sans-serif; font-size: 100%; } /* 
     margin: 0 0 -5px;
      padding: 0 0 2.2px 0;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 hr {
     margin: 0 auto;
-    width: 180px;
+    width: 195px;
     border-color: inherit;
 }
 
 .link__wrap {
-    font-size: 0.8em;
+    font-size: 1.0312em;
     text-align: center;
     color: #a1a0a0;
     padding: 2px 0 0;
@@ -122,26 +122,8 @@ opacity: 0.75;
 
 /* Sets font-size for all elements on tablet/desktop */
 @media only screen and (min-width: 480px) {
-    h1 {
-    font-size: 1.25em;
-        transition: all 0.7s;      
-}
-
-hr {
-    width: 220px;
-    transition: all 0.7s;      
-        
-}
-
-.link__wrap {
-    font-size: 1em;
-    transition: all 0.7s;      
-}
-}
-
-@media only screen and (min-width: 600px) {
-    h1 {
-    font-size: 1.25em;
+h1 {
+    font-size: 1.4em;
         transition: all 0.7s;      
 }
 
@@ -151,23 +133,40 @@ hr {
 }
 
 .link__wrap {
-    font-size: 1em;
+    font-size: 1.1em;
+    transition: all 0.7s;      
+}
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+    font-size: 1.55em;
+        transition: all 0.7s;      
+}
+
+hr {
+    width: 235px;
+    transition: all 0.7s;      
+}
+
+.link__wrap {
+    font-size: 1.25em;
     transition: all 0.7s;      
 }
 }
 @media only screen and (min-width: 768px) {
     h1 {
-    font-size: 1.5em;
+    font-size: 1.55em;
         transition: all 0.7s;      
 }
 
 hr {
-    width: 260px;
+    width: 235px;
     transition: all 0.7s;      
 }
 
 .link__wrap {
-    font-size: 1.1em;
+    font-size: 1.25em;
     transition: all 0.7s;      
 }
 }
