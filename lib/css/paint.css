@@ -29,7 +29,7 @@ This stylesheet is served to browsers that do not pass http://detectmobilebrowse
 
 }
 
-body { font-size:100%; } /* Base settings for all elements set @ 477px x 288px  */
+body { font-family: colabthi, helvetica neue, sans-serif; font-size: 100%; } /* Base settings for all elements set @ 477px x 288px  */
 
 .nav__wrap {
     padding: 9em 0 0; 
